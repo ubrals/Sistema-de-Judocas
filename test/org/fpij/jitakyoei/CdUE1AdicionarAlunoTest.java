@@ -12,5 +12,6 @@ public class CdUE1AdicionarAlunoTest {
     @Test
     public void testCriarAluno(){
         Aluno aluno = new Aluno();
+        Assert.assertEquals(new Aluno, aluno);
     }
 }
