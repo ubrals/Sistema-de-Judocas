@@ -15,6 +15,8 @@
 <!-- <project name="Sistema-de-Judocas" basedir="."> -->
 <project name="Sistema-de-Judocas" default="test" basedir=".">
     <description>Builds, tests, and runs the project Sistema de Judocas.</description>
+    <import file="nbproject/build-impl.xml"/>
+<!--
   <property name="main.build.dir" value="build/main" />  
   <property name="main.src.dir" value="src" />
   <property name="test.build.dir" value="build/test" />
@@ -46,8 +48,8 @@
     <echo message="Build done" />
   </target>
    
-  <!-- Test and build all files  -->
-  <!-- To run this: use "ant" (default) or "ant run" -->
+  <!- - Test and build all files  - ->
+  <!- - To run this: use "ant" (default) or "ant run" - ->
   <target name="run" depends="build">
     <junit printsummary="on" haltonfailure="yes">
         <classpath>
@@ -61,8 +63,8 @@
     </junit>
   </target>
    
-  <!-- delete all class files -->
-  <!-- To run this: use "ant clean" -->
+  <!- - delete all class files - ->
+  <!- - To run this: use "ant clean" - ->
   <target name="clean">
     <delete>
         <fileset dir="${basedir}" includes="**/*.class" />
@@ -70,13 +72,13 @@
     <echo message="clean done" />
   </target>
     
-<!-- ============================================================================== -->
-<!-- 01may2016 -->
-<!-- ============================================================================== -->
+<!- - ============================================================================== - ->
+<!- - 01may2016 - ->
+<!- - ============================================================================== - ->
 
-    <!-- <import file="nbproject/build-impl.xml"/>
-    -->
-    <!--
+    <!- - <import file="nbproject/build-impl.xml"/>
+    - ->
+    <!- -
 
     There exist several targets which are by default empty and which can be 
     used for execution of your tasks. These targets are usually executed 
