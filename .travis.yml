@@ -1,5 +1,5 @@
 language: java
-script: "ant"
+script: "ant test"
 cache: false
-ant test
+#ant test
 
