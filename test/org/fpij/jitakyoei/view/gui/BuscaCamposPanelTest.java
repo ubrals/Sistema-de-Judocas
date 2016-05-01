@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author 31461700
+ * @author ubrals
  */
 public class BuscaCamposPanelTest {
     
