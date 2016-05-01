@@ -2,6 +2,6 @@ language: java
 script: "ant"
 cache: false
 #ant test
-install: ant deps
+#install: "ant deps"
 
 
