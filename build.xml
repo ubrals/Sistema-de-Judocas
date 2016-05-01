@@ -12,8 +12,8 @@
 <!-- ============================================================================== -->
 <!-- 01may2016 -->
 <!-- ============================================================================== -->
-<!-- <project name="Sistema-de-Judocas" basedir="."> -->
-<project name="Sistema-de-Judocas" default="test" basedir=".">
+<project name="Sistema-de-Judocas" basedir=".">
+<!-- <project name="Sistema-de-Judocas" default="test" basedir="."> -->
     <description>Builds, tests, and runs the project Sistema de Judocas.</description>
     <import file="nbproject/build-impl.xml"/>
 <!--
