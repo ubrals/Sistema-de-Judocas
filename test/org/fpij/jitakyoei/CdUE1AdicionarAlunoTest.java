@@ -13,6 +13,6 @@ public class CdUE1AdicionarAlunoTest {
     public void testCriarAluno(){
         Aluno aluno = new Aluno();
         Assert.assertEquals(new Aluno, aluno);
-        aluno;!!!!!!!
+//        aluno;!!!!!!!
     }
 }
